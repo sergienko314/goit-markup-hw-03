@@ -5,121 +5,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link 
     href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"
-    >
-
+    />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<!-- Шапка сайта -->
-<header class="header-style">
-    <a href="./index.html" class="logo"><span class="logo-color">Web</span>Studio</a>
-    <nav>
-        <ul>
-        <li>
-            <a href="./index.html" class="primery-nav-link">Студия</a> 
-        </li>
-        <li>
-            <a href="./portfolio.html" class="nav-link" >Портфолио</a>
-        </li>
-        <li>
-            <a href="" class="nav-link">Контакты</a>
-        </li>
+<!-- Шапка сайта --> 
+ <header class="header-style">
+    <nav class="conteiner">
+            <a href="./index.html" class="logo"><span class="logo-color">Web</span>Studio</a>
+            <ul class="site-nav list">
+            <li class="item">
+                <a href="./index.html" class="nav-link">Студия</a> 
+            </li>
+            <li class="item">
+                <a href="./portfolio.html" class="primery-nav-link" >Портфолио</a>
+            </li>
+            <li class="item">
+                <a href="" class="nav-link">Контакты</a>
+            </li>
+            </ul>
+            <ul class="auth-nav list">
+            <li class="item">
+             <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+            </li>
+            <li class="item">
+             <a href="tel:+380991956428" class="contact-link">+38 096 111 11 11</a>
+             </li>
         </ul>
     </nav>
-    <ul>
-        <li>
-         <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
-        </li>
-        <li>
-         <a href="tel:+380991956428" class="contact-link">+38 096 111 11 11</a>
-         </li>
-    </ul>
-  </header>
- 
- <main>
+ </header>
+
+ <main class="main-project">
      <h1>Портфолио</h1>
-     <ul>
-         <li> <button type="button" class="project-button">Все</button></li>
-         <li> <button type="button" class="project-button">Веб-сайты</button></li>
-         <li> <button type="button" class="project-button">Приложения</button></li>
-         <li> <button type="button" class="project-button">Дизайн</button></li>
-         <li> <button type="button" class="project-button">Маркетинг</button></li>
+     <ul class="button-nav conteiner">
+         <li class="item"> <button type="button" class="project-button">Все</button></li>
+         <li class="item"> <button type="button" class="project-button">Веб-сайты</button></li>
+         <li class="item"> <button type="button" class="project-button">Приложения</button></li>
+         <li class="item"> <button type="button" class="project-button">Дизайн</button></li>
+         <li class="item"> <button type="button" class="project-button">Маркетинг</button></li>
      </ul>
-     <h2>Список проектов</h2>
-     <ul>
-         <li> 
-            <a href="">
-            <img src="./img/project1.jpeg" alt="">
-            <h3 class="project-text-primery">Технокряк</h3>
-            <p class="project-text-assent">Веб-сайты</p></a>
-         </li>
-         <li> 
-            <a href="">
-            <img src="./img/project2.jpeg" alt="">
-            <h3 class="project-text-primery">Технокряк</h3>
-            <p class="project-text-assent">Веб-сайты</p></a>
+     
+     <div class="project-list conteiner">
+         <ul class="project list">
+        <li class="project-box item"> 
+           <a href="">
+           <img src="./img/project1.jpeg" alt="">
+           <h3 class="project-text-primery">Технокряк</h3>
+           <p class="project-text-assent">Веб-сайты</p></a>
         </li>
-        <li> 
-            <a href="">
-            <img src="./img/project3.jpeg" alt="">
+        <li class=" project-box item"> 
+           <a href="">
+           <img src="./img/project2.jpeg" alt="">
+           <h3 class="project-text-primery">Технокряк</h3>
+           <p class="project-text-assent">Веб-сайты</p></a>
+       </li>
+       <li class=" project-box item"> 
+           <a href="">
+           <img src="./img/project3.jpeg" alt="">
+           <h3 class="project-text-primery">Технокряк</h3>
+           <p class="project-text-assent">Веб-сайты</p></a>
+       </li>
+       <li class=" project-box item"> 
+           <a href="">
+           <img src="./img/project4.jpeg" alt="">
+           <h3 class="project-text-primery">Технокряк</h3>
+           <p class="project-text-assent">Веб-сайты</p></a>
+       </li>
+       <li class=" project-box item"> 
+           <a href="">
+           <img src="./img/project5.jpeg" alt="">
+           <h3 class="project-text-primery">Технокряк</h3>
+           <p class="project-text-assent">Веб-сайты</p></a>
+       <li class=" project-box item"> 
+           <a href="">
+           <img src="./img/project6.jpeg" alt="">
+           <h3 class="project-text-primery">Технокряк</h3>
+           <p class="project-text-assent">Веб-сайты</p></a>
+       </li>
+       <li class=" project-box item"> 
+           <a href="">
+           <img src="./img/project7.jpeg" alt="">
+           <h3 class="project-text-primery">Технокряк</h3>
+           <p class="project-text-assent">Веб-сайты</p></a>
+       </li>
+       <li class=" project-box item"> 
+           <a href="">
+           <img src="./img/project8.jpeg" alt="">
             <h3 class="project-text-primery">Технокряк</h3>
-            <p class="project-text-assent">Веб-сайты</p></a>
-        </li>
-        <li> 
-            <a href="">
-            <img src="./img/project4.jpeg" alt="">
-            <h3 class="project-text-primery">Технокряк</h3>
-            <p class="project-text-assent">Веб-сайты</p></a>
-        </li>
-        <li> 
-            <a href="">
-            <img src="./img/project5.jpeg" alt="">
-            <h3 class="project-text-primery">Технокряк</h3>
-            <p class="project-text-assent">Веб-сайты</p></a>
-        <li> 
-            <a href="">
-            <img src="./img/project6.jpeg" alt="">
-            <h3 class="project-text-primery">Технокряк</h3>
-            <p class="project-text-assent">Веб-сайты</p></a>
-        </li>
-        <li> 
-            <a href="">
-            <img src="./img/project7.jpeg" alt="">
-            <h3 class="project-text-primery">Технокряк</h3>
-            <p class="project-text-assent">Веб-сайты</p></a>
-        </li>
-        <li> 
-            <a href="">
-            <img src="./img/project8.jpeg" alt="">
-             <h3 class="project-text-primery">Технокряк</h3>
-            <p class="project-text-assent">Веб-сайты</p></a>
-        </li>
-        <li> 
-            <a href="">
-            <img src="./img/project1.jpeg" alt="">
-            <h3 class="project-text-primery">Технокряк</h3>
-            <p class="project-text-assent">Веб-сайты</p></a>
-        </li>
-     </ul>
+           <p class="project-text-assent">Веб-сайты</p></a>
+       </li>
+       <li class=" project-box item"> 
+           <a href="">
+           <img src="./img/project1.jpeg" alt="">
+           <h3 class="project-text-primery">Технокряк</h3>
+           <p class="project-text-assent">Веб-сайты</p></a>
+       </li>
+    </ul></div>
  </main>
 
 <!-- Подвал -->
 <footer>
-    <a href="./index.html" class="logo"><span class="logo-color">Web</span>Studio</a>
-       <address>
-        <ul>
-            <li>
-            <a href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/data=!4m2!3m1!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0?sa=X&ved=2ahUKEwik_cm1_Jr4AhUux4sKHWJNCagQ8gF6BAgCEAE" class="footer-contact ">г. Киев, пр-т Леси Украинки, 26</a>
-            </li>
-            <li>
-            <a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com</a>
-            </li>
-            <li>
-            <a class="footer-contact" href="tel:+380991956428">+38 096 111 11 11</a>
-            </li>
-        </ul>
-       </address>
+    <div class="footer-style conteiner">
+  <a href="./index.html" class="logo"><span class="logo-color">Web</span>Studio</a>
+     <address>
+      <ul class="address-list list">
+          <li class="iten">
+          <a href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/data=!4m2!3m1!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0?sa=X&ved=2ahUKEwik_cm1_Jr4AhUux4sKHWJNCagQ8gF6BAgCEAE" class="footer-contact-address">г. Киев, пр-т Леси Украинки, 26</a>
+          </li>
+          <li class="item">
+          <a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com</a>
+          </li>
+          <li class="item">
+          <a class="footer-contact" href="tel:+380991956428">+38 096 111 11 11</a>
+          </li>
+      </ul>
+     </address>
+  </div>
+</footer>
 </body>
 </html>
