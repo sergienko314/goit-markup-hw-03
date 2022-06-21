@@ -19,6 +19,7 @@ h2 {
 }
 main {
     width: 1600px;
+    display: inline;
 }
 
 
@@ -309,16 +310,14 @@ address ul {
     padding-bottom: 60px;
 }
 footer {
-    width:1600px;
-    background-color: #2F303A;  
-   
+
+    background-color: #2F303A;
 }
+
 footer .conteiner {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     
-    justify-content: flex-start;
 }
 footer .logo {
     color: #ffffff;
