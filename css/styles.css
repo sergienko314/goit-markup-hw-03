@@ -45,23 +45,22 @@ a {
 /* header */
 
 .header-style {
-    
-    padding-top: 24px;
-    padding-bottom: 24px; 
+    border-bottom: 1px solid #ECECEC;
+
 
 }
 .nav-style {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-style a {
     text-decoration: none;
 }
 
-header {
-    border-bottom: 1px solid #ECECEC;
-}
+
 /* logo */
 .logo {
     font-family: 'Raleway';
@@ -82,11 +81,11 @@ header {
 }
 /* site nav */
 .site-nav {
-    display: flex;
-    margin-right: auto;
+    display: block;
+    
 }
 .site-nav .item {
-    display: block;
+    display: inline-block;
 
 }
 .primery-nav-link, .nav-link, .contact-link {
@@ -111,11 +110,12 @@ header {
 }
 /* auts nav */
 .auth-nav {
-    display: flex;
+    display: block;
+    margin-left: auto;
 }
 
 .auth-nav .item {
-    display: block;
+    display: inline-block;
     
 }
 .auth-nav .item + .item {
@@ -146,11 +146,10 @@ header {
 /* hero */
 .hero-style {
     background: #2F303A;
-    height: 600px;
-    padding-top: 200px;
-    padding-bottom: 200px;
 } 
 .hero-content {
+    padding-top: 200px;
+    padding-bottom: 200px;
     
 }
     
@@ -254,14 +253,13 @@ header {
     
 /* Comand */
 
-.comand-background {
-    background-color: #F5F4FA;
-
-}
 .comand {
+    background-color: #F5F4FA;
+}
+.comand-content {
     padding-top: 94px;
     padding-bottom: 94px;
-    
+
 }
 .comand h2 {
     margin: 0;
@@ -277,9 +275,7 @@ header {
 .team-list .item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
 
 }
 .comand-info {
@@ -305,16 +301,16 @@ header {
 /* footer */
 
     
-footer {
+.footer-main {
     background-color: #2F303A;
-}
-footer .conteiner {
-    display: flex;
-    flex-direction: column;   
-}
-.footer-style {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer-style {
+    display: flex;
+    flex-direction: column;
+    
 }
 footer .logo {
     color: #ffffff;
@@ -360,15 +356,17 @@ footer .logo {
     color: #FFFFFF;
 
 }
+.address-list .item:not(:last-child) {
+    margin-bottom: 9px;
+}
 
 /* button */
 
 .button-nav {
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    
 }
 .project-button {
     
@@ -391,7 +389,9 @@ footer .logo {
 
 /* Project */
 .main-project {
-    
+    padding-top: 94px;
+    padding-bottom: 94px;
+
 }
 .main-project h1 {
     display: none;
@@ -400,7 +400,7 @@ footer .logo {
 .project {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
+    
 }
 
 .project .item:nth-child(3n) {
@@ -457,6 +457,10 @@ footer .logo {
     top: 174px;
     border: 0;
 }
+.project-box {
+    padding: 20px 24px;
+
+}
 .project-text-primery {
     font-style: normal;
     font-weight: 700;
@@ -464,11 +468,8 @@ footer .logo {
     line-height: 2;
     color: var(--title-text-color);
     letter-spacing: 0.06em;
+    margin: 0 0 4px 0;
 
-    width: 322px;
-    height: 36px;
-    margin: 20px 4px 24px 24px;
-    padding: 0;
 }
 .project-text-assent {
     font-weight: 400;
@@ -476,16 +477,10 @@ footer .logo {
     line-height: 1.8;
     color: #757575;
     text-decoration: none;letter-spacing: 0.03em;
-    width: 322px;
-    height: 30px;
-    padding: 0;
-    margin: 0px 0px 24px 24px;
+    margin: 0;
+    
 }
 
-.box-sizing {
-    box-sizing: border-box;
-    border: 1px solid #EEEEEE;
-}
 
 
 
