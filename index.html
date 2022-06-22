@@ -15,8 +15,8 @@
 </head>
 <body>
 <!-- Шапка сайта -->
-<header class="header-style">
-    <nav class="conteiner">
+<header class="header-style conteiner">
+    <nav class="nav-style">
             <a href="./index.html" class="logo"><span class="logo-color">Web</span>Studio</a>
         
             <ul class="site-nav list">
@@ -43,7 +43,7 @@
  <main>
    <!-- Герой -->
    <section class="hero-style conteiner">
-       <h1>Эффективные решения для вашего бизнеса</h1>
+            <h1>Эффективные решения <br>для вашего бизнеса</h1>
            <button type="button" class="button">Заказать услугу</button>
    </section>
    <!-- Наши преимущества -->
@@ -71,46 +71,58 @@
    <!--  чем мы занимаемся -->
    <section class="business conteiner">
        <h2>Чем мы занимаемся</h2>
-       <ul>
-        <li>
+       <ul class="business-list list">
+        <li class="item">
             <img src="./img/1.jpeg" alt="Чем мы занимаемся" width="370">
         </li>
-        <li>
-            <img src="./img/2.jpeg" class="centr-jpg" alt="Чем мы занимаемся" width="370">
+        <li class="item">
+            <img src="./img/2.jpeg" alt="Чем мы занимаемся" width="370">
         </li>
-        <li>
+        <li class="item">
             <img src="./img/3.jpeg" alt="Чем мы занимаемся" width="370">
         </li>
        </ul>
    </section>
    <!-- Наша команда -->
-   <section class="comand">
-       <h2>Наша Команда</h2>
-       <div class="team conteiner">
+   <div class="comand-background">
+   <section class="comand conteiner">
+        <h2>Наша Команда</h2>
         <ul class="team-list list">
             <li class="item">
                 <img src="./img/camanda1.jpeg" alt="наша команда" width="270">
-                    <h3 class="comand-person list">Игорь Демьяненко</h3>
+                 <div class="comand-info">
+                    <h3 class="comand-person">Игорь Демьяненко</h3>
                     <p class="comand-position">Product Designer</p> 
+                 </div>
+                    
             </li>
             <li class="item">
                 <img src="./img/camanda2.jpeg" alt="наша команда" width="270">
-                <h3 class="comand-person list">Ольга Репина</h3>
-                <p class="comand-position">Frontend Developer</p>
+                <div class="comand-info">
+                    <h3 class="comand-person">Ольга Репина</h3>
+                    <p class="comand-position">Frontend Developer</p>
+                </div>
+                
             </li>
             <li class="item">
                 <img src="./img/camanda3.jpeg" alt="наша команда" width="270">
-                <h3 class="comand-person list">Игорь Демьяненко</h3>
-                <p class="comand-position">Product Designer</p>
+                <div class="comand-info">
+                    <h3 class="comand-person">Игорь Демьяненко</h3>
+                    <p class="comand-position">Product Designer</p>
+                </div>
+                
             </li>
             <li class="item">
                 <img src="./img/camanda4.jpeg" alt="наша команда" width="270">
-                <h3 class="comand-person">Игорь Демьяненко</h3>
-                <p class="comand-position">Product Designer</p>
+                <div class="comand-info">
+                    <h3 class="comand-person">Игорь Демьяненко</h3>
+                    <p class="comand-position">Product Designer</p>
+                </div>
+                
             </li>
         </ul>
-       </div>
    </section>
+   </div>
  </main>
 <!-- Подвал -->
   <footer>
