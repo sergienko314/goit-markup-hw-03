@@ -146,10 +146,11 @@ a {
 /* hero */
 .hero-style {
     background: #2F303A;
-} 
-.hero-content {
     padding-top: 200px;
     padding-bottom: 200px;
+} 
+.hero-content {
+    
     
 }
     
@@ -255,10 +256,11 @@ a {
 
 .comand {
     background-color: #F5F4FA;
-}
-.comand-content {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.comand-content {
+    
 
 }
 .comand h2 {
